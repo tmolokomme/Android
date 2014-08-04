@@ -1,0 +1,46 @@
+<!-- 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:enabled="false"
+        android:ems="10"
+        android:text="Startup registration app..." >
+        
+    </EditText>
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="35dp"
+        android:onClick="startLoginActivity"
+        android:text="@string/login" />
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="263dp"
+        android:layout_marginLeft="41dp"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+
+</LinearLayout>
+<!--  
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        -->
+<!-- </RelativeLayout>  -->
